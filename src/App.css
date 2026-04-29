@@ -1,0 +1,62 @@
+.App { min-height: 100vh; }
+
+/* ── Shared Section Styles ── */
+.section {
+  padding: 100px 0;
+}
+.section-alt {
+  background: #111827;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #e2e8f0;
+}
+.section-title .accent { color: #38bdf8; }
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: none;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #38bdf8, #818cf8);
+  color: #0f172a;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(56,189,248,0.35);
+}
+.btn-outline {
+  background: transparent;
+  color: #38bdf8;
+  border: 2px solid #38bdf8;
+}
+.btn-outline:hover {
+  background: rgba(56,189,248,0.1);
+  transform: translateY(-2px);
+}
+.btn-full { width: 100%; justify-content: center; }
+
+/* ── Fade-in animation ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.6s ease forwards; }
