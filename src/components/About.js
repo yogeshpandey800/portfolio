@@ -11,7 +11,7 @@ const info = [
   { icon: 'fas fa-map-marker-alt', text: 'Gorakhpur, Uttar Pradesh' },
   { icon: 'fas fa-envelope',       text: 'ypandey.work@gmail.com',      href: 'mailto:ypandey.work@gmail.com' },
   { icon: 'fas fa-phone',          text: '+91 9839682710',               href: 'tel:+919839682710' },
-  { icon: 'fas fa-globe',          text: 'MathtoData.com',               href: 'https://MathtoData.com' },
+  { icon: 'fas fa-globe',          text: 'yogeshpandey800.github.io/portfolio', href: 'https://yogeshpandey800.github.io/portfolio' },
   { icon: 'fab fa-github',         text: 'yogeshpandey800',              href: 'https://github.com/yogeshpandey800' },
   { icon: 'fab fa-linkedin',       text: 'yogeshkumarpandey',            href: 'https://linkedin.com/in/yogeshkumarpandey' },
 ];

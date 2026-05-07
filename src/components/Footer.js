@@ -19,7 +19,7 @@ export default function Footer() {
             <a href="mailto:ypandey.work@gmail.com" aria-label="Email">
               <i className="fas fa-envelope" />
             </a>
-            <a href="https://MathtoData.com" target="_blank" rel="noreferrer" aria-label="Portfolio">
+            <a href="https://yogeshpandey800.github.io/portfolio" target="_blank" rel="noreferrer" aria-label="Portfolio">
               <i className="fas fa-globe" />
             </a>
           </div>

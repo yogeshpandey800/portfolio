@@ -60,7 +60,7 @@ export default function Hero() {
             <a href="https://github.com/yogeshpandey800" target="_blank" rel="noreferrer" aria-label="GitHub"><i className="fab fa-github" /></a>
             <a href="https://linkedin.com/in/yogeshkumarpandey" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin" /></a>
             <a href="mailto:ypandey.work@gmail.com" aria-label="Email"><i className="fas fa-envelope" /></a>
-            <a href="https://MathtoData.com" target="_blank" rel="noreferrer" aria-label="Portfolio"><i className="fas fa-globe" /></a>
+            <a href="https://yogeshpandey800.github.io/portfolio" target="_blank" rel="noreferrer" aria-label="Portfolio"><i className="fas fa-globe" /></a>
           </div>
         </div>
 
