@@ -1,62 +1,27 @@
-.ca-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-}
-.ca-heading {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #e2e8f0;
-  margin-bottom: 24px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.ca-heading i { color: #38bdf8; }
+.ca-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.ca-heading { font-size: 1.05rem; font-weight: 700; color: #1c1c1c; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+.ca-heading i { color: #1c1c1c; font-size: 1rem; }
 
-.cert-list, .ach-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
+.cert-list, .ach-list { display: flex; flex-direction: column; gap: 14px; }
 .cert-card, .ach-card {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  background: #1e293b;
-  border: 1px solid #334155;
-  border-radius: 12px;
-  padding: 20px;
-  transition: all 0.3s;
+  display: flex; align-items: center; gap: 16px;
+  background: #f2f2f2; border: 1.5px solid #c8c8c8;
+  border-radius: 12px; padding: 16px 18px; transition: all 0.25s;
 }
 .cert-card:hover, .ach-card:hover {
-  transform: translateX(6px);
-  border-color: #38bdf8;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  transform: translateX(5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-color: #aaaaaa;
 }
-
 .cert-icon, .ach-icon {
-  width: 48px; height: 48px;
+  width: 44px; height: 44px;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; flex-shrink: 0;
+  background: #1c1c1c !important;
+  color: #f0f0f0 !important;
 }
+.cert-info h4, .ach-info h4 { font-size: 0.87rem; font-weight: 600; color: #1c1c1c; margin-bottom: 3px; }
+.cert-info p, .ach-info p { font-size: 0.77rem; color: #5a5a5a; }
 
-.cert-info h4, .ach-info h4 {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #e2e8f0;
-  margin-bottom: 4px;
-}
-.cert-info p, .ach-info p {
-  font-size: 0.8rem;
-  color: #64748b;
-}
-
-@media (max-width: 768px) {
-  .ca-grid { grid-template-columns: 1fr; gap: 36px; }
-}
+@media (max-width: 768px) { .ca-grid { grid-template-columns: 1fr; gap: 32px; } }

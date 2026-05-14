@@ -2,24 +2,14 @@ import React from 'react';
 import './Certifications.css';
 
 const certs = [
-  { icon: 'fab fa-docker',      title: 'Docker Essentials: A Developer Introduction', issuer: 'IBM / Cognitive Class', color: '#2496ed' },
-  { icon: 'fas fa-shield-alt',  title: 'Cybersecurity Fundamentals',                  issuer: 'IBM / Cognitive Class', color: '#f472b6' },
-  { icon: 'fas fa-laptop-code', title: 'Certificate of Internship',                   issuer: 'CDAC',                  color: '#34d399' },
+  { icon: 'fab fa-docker',      title: 'Docker Essentials: A Developer Introduction', issuer: 'IBM / Cognitive Class', color: '#0369a1' },
+  { icon: 'fas fa-shield-alt',  title: 'Cybersecurity Fundamentals',                  issuer: 'IBM / Cognitive Class', color: '#be185d' },
+  { icon: 'fas fa-laptop-code', title: 'Certificate of Internship',                   issuer: 'CDAC',                  color: '#15803d' },
 ];
 
 const achievements = [
-  {
-    icon: 'fab fa-hackerrank',
-    title: '5-Star Rating on HackerRank',
-    desc: 'Java — demonstrating strong problem-solving skills',
-    color: '#00ea64',
-  },
-  {
-    icon: 'fas fa-code',
-    title: '100+ Problems on LeetCode',
-    desc: 'Data Structures & Algorithms using Java',
-    color: '#ffa116',
-  },
+  { icon: 'fab fa-hackerrank', title: '5-Star Rating on HackerRank', desc: 'Java — demonstrating strong problem-solving skills', color: '#15803d' },
+  { icon: 'fas fa-code',       title: '100+ Problems on LeetCode',   desc: 'Data Structures & Algorithms using Java',            color: '#b45309' },
 ];
 
 export default function Certifications() {

@@ -2,42 +2,12 @@ import React from 'react';
 import './Skills.css';
 
 const skillGroups = [
-  {
-    icon: 'fas fa-code',
-    title: 'Languages',
-    tags: ['Java', 'JavaScript', 'Python', 'SQL'],
-    color: '#38bdf8',
-  },
-  {
-    icon: 'fas fa-desktop',
-    title: 'Frontend',
-    tags: ['HTML', 'CSS', 'React.js', 'Tailwind CSS', 'Bootstrap'],
-    color: '#818cf8',
-  },
-  {
-    icon: 'fas fa-server',
-    title: 'Backend',
-    tags: ['Node.js', 'Express.js'],
-    color: '#34d399',
-  },
-  {
-    icon: 'fas fa-database',
-    title: 'Database',
-    tags: ['MongoDB', 'Mongoose', 'MySQL'],
-    color: '#fb923c',
-  },
-  {
-    icon: 'fas fa-tools',
-    title: 'Tools',
-    tags: ['Git', 'GitHub', 'Postman', 'Cloudinary', 'Socket.IO'],
-    color: '#f472b6',
-  },
-  {
-    icon: 'fas fa-lightbulb',
-    title: 'Concepts',
-    tags: ['REST APIs', 'JWT Auth', 'OOP', 'Real-time Comm.'],
-    color: '#facc15',
-  },
+  { icon: 'fas fa-code',      title: 'Languages', tags: ['Java', 'JavaScript', 'Python', 'SQL'],                          color: '#1c1c1c' },
+  { icon: 'fas fa-desktop',   title: 'Frontend',  tags: ['HTML', 'CSS', 'React.js', 'Tailwind CSS', 'Bootstrap'],         color: '#1c1c1c' },
+  { icon: 'fas fa-server',    title: 'Backend',   tags: ['Node.js', 'Express.js'],                                        color: '#1c1c1c' },
+  { icon: 'fas fa-database',  title: 'Database',  tags: ['MongoDB', 'Mongoose', 'MySQL'],                                 color: '#1c1c1c' },
+  { icon: 'fas fa-tools',     title: 'Tools',     tags: ['Git', 'GitHub', 'Postman', 'Cloudinary', 'Socket.IO'],          color: '#1c1c1c' },
+  { icon: 'fas fa-lightbulb', title: 'Concepts',  tags: ['REST APIs', 'JWT Auth', 'OOP', 'Real-time Comm.'],              color: '#1c1c1c' },
 ];
 
 export default function Skills() {
